@@ -3,7 +3,7 @@
 <mapper namespace="com.wyy.simplespringboot.mapper.TestMapper">
 
     <select id="testselect" resultType="Integer">
-        select count(*) from tb_user
+        select count(*) from sys_user
     </select>
 
 </mapper>
